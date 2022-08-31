@@ -67,3 +67,7 @@ body {
 body.light {
   background: #F1F1F1;
 }
+
+#current-theme {
+  display: none;
+}
