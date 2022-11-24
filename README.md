@@ -7,7 +7,7 @@
 </p>
 
 ## 💻 Projeto
-Aplicativo que simula um Feedback Widget.
+App que muda a cor de fundo do site conforme o usuário quer (modo light e dark)
 
 ## 🔃 Requisitos para utilizar
 
@@ -15,23 +15,13 @@ Aplicativo que simula um Feedback Widget.
 
 ## ✨ Tecnologias
 
--   [ x ] Typescript
--   [ x ] Prisma
--   [ x ] Vite
--   [ x ] React
--   [ x ] Popover
--   [ x ] Axios
--   [ x ] Tailwind
--   [ x ] Express
--   [ x ] JEST
-
+-   [ x ] HTML 5
+-   [ x ] CSS
+-   [ x ] Javascript
 
 ## :hammer_and_wrench: Features 
 
--   [ ] O feedback pode ser um BUG, Ideia ou Outro;
--   [ ] É possível digitar um texto e tirar print da tela ao enviar o feedback;
--   [ ] É possível enviar novos feedbacks;
--   [ ] Tudo é armazenado em um banco de dados.
+-   [ ] É possível mudar o tema de light para dark
 
 ## 🆚 Versionamento / Versioning
 
@@ -39,18 +29,18 @@ Esse projeto não possui um sistema de versionamento.
 
 ## 🆙 Projeto no ar
 
-É possível acessar a aplicação através da URL: https://feedback-widget-gold.vercel.app/ .
+É possível acessar a aplicação através da URL: https://silasfmartins.github.io/theme-switcher/ .
 
 ## 👨‍💻 Contribuir / Contributing
 
-Deseja contribuir com o projeto? [Passo a passo para contribuir](https://github.com/silasfmartins/feedback-widget/blob/master/Contributing.md)
+Deseja contribuir com o projeto? [Passo a passo para contribuir](https://github.com/silasfmartins/theme-switcher/blob/master/Contributing.md)
 
 ## 💿 Histórico / History
 
-Consulte [Releases](https://github.com/silasfmartins/feedback-widget/releases) para ter um changelog completo.
+Consulte [Releases](https://github.com/silasfmartins/theme-switcher/releases) para ter um changelog completo.
 
 ## 📄 Licença do Projeto/License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/silasfmartins/feedback-widget/blob/main/LICENSE) © Silas Martins para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/silasfmartins/theme-switcher/blob/main/LICENSE) © Silas Martins para mais detalhes.
 
 <br />
