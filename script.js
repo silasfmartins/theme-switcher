@@ -1,13 +1,6 @@
 const body = document.querySelector('body')
 const checkbox = document.querySelector('#checkbox')
 
-document.addEventListener('keydown', function(event) {
-  if(event.key === 'Enter') {
-    changeTheme()
-    checkbox.checked = !checkbox.checked
-  }
-})
-
 checkbox.addEventListener('change', changeTheme)
 
 function changeTheme() {

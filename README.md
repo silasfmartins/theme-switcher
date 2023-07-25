@@ -22,7 +22,6 @@ App que muda a cor de fundo do site conforme o usuário quer (modo light e dark)
 ## :hammer_and_wrench: Features 
 
 -   [ ] É possível mudar o tema de light para dark
--   [ ] É possível mudar o tema utilizando a tecla Enter do teclado
 
 ## 🆚 Versionamento / Versioning
 
