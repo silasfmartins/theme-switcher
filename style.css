@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #292C35;
+  transition: background 0.2s linear;
+}
+
+.switcher {
+  height: 50vw;
+  position: relative;
+}
+
+.label {
+  padding: 3.6778125rem;
+  max-width: 14.71125rem;
+  height: 6.375rem;
+  background: #000000;
+  border-radius: 3.6875rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox:checked + .label .ball {
+  margin-left: -2.75rem;
+  transform: translateX(4px);
+}
+
+.ball {
+  max-width: 5.394375rem;
+  max-height: 5.394375rem;
+  padding: 2.6971875rem;
+  border-radius: 100%;
+  background: #F1F1F1;
+  transition: transform 0.2s linear;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 4.75rem;
+}
+
+.moon {
+  margin-left: -3rem;
+}
+
+.sun {
+  margin-left: 1rem;
+}
+
+body.light {
+  background: #F1F1F1;
+}
+
+:root {
+  scrollbar-color: #8F8F8F #374151 ;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background: #374151;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8F8F8F;
+  border-radius: 14px;
+}
